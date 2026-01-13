@@ -10,7 +10,7 @@ package modularidad;
  */
 public class SinBono implements IBonificacion {
     @Override
-    public double aplicar(double promedioBase) {
-        return promedioBase;
+    public double aplicar(double promedioActual) {
+        return promedioActual; 
     }
 }

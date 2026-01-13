@@ -11,6 +11,7 @@ package modularidad;
 public class Bonoextra implements IBonificacion {
  @Override
     public double aplicar(double promedioActual) {
-        return promedioActual; 
+        return promedioActual + 1;
     }
 }
+
